@@ -1,0 +1,72 @@
+# ================================================================
+# ENVIRONMENT & SECRETS (PENTING: JANGAN SEKALI-KALI COMMIT .env)
+# ================================================================
+.env
+.env.*
+*.env
+backend/.env
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+
+# Kekalkan contoh template .env untuk panduan developer lain
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# ================================================================
+# BACKEND (GO)
+# ================================================================
+# Binari & executable
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+backend/main.exe
+backend/bin/
+bin/
+
+# Test binaries & coverage
+*.test
+*.out
+coverage.txt
+
+# Go workspace
+go.work
+go.work.sum
+
+# ================================================================
+# FRONTEND (NODE / VITE / REACT)
+# ================================================================
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+frontend/dist-ssr/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ================================================================
+# OPERATING SYSTEM & IDE
+# ================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

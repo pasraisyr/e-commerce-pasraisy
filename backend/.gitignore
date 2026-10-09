@@ -1,0 +1,17 @@
+# Environment secrets
+.env
+*.env
+!.env.example
+
+# Go executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+main
+bin/
+
+# Test binaries
+*.test
+*.out
